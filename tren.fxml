@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="me" prefHeight="374.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofinal.TrenController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@railway-tracks-pics-154614.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="99.0" layoutY="75.0" text="Kilometros:">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="116.0" layoutY="153.0" text="Precio:">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="km" layoutX="230.0" layoutY="75.0" prefHeight="27.0" prefWidth="194.0" promptText="km" />
+      <TextField fx:id="precio" layoutX="239.0" layoutY="153.0" prefHeight="27.0" prefWidth="194.0" />
+      <TextField fx:id="consumo" layoutX="239.0" layoutY="202.0" prefHeight="27.0" prefWidth="194.0" promptText="Consumo" />
+      <Button fx:id="menu" layoutX="22.0" layoutY="323.0" mnemonicParsing="false" onAction="#menu" prefHeight="27.0" prefWidth="76.0" text="Menu" />
+      <Button layoutX="107.0" layoutY="110.0" mnemonicParsing="false" onAction="#calcular" text="Calcular" />
+      <Label layoutX="128.0" layoutY="207.0" text="Consumo">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="457.0" layoutY="298.0" mnemonicParsing="false" onAction="#guardar" prefHeight="27.0" prefWidth="76.0" text="Guardar" />
+      <Label layoutX="280.0" layoutY="23.0" text="TREN" textFill="#340d4a">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

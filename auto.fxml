@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="menu" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofinal.AutoController">
+   <children>
+      <ImageView fitHeight="443.0" fitWidth="864.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@audi-r8-wallpaper-hd-400x283.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="47.0" layoutY="382.0" mnemonicParsing="false" onAction="#menu" prefHeight="25.0" prefWidth="111.0" text="Menu" textAlignment="CENTER" textFill="#171717" textOverrun="WORD_ELLIPSIS" />
+      <Label layoutX="87.0" layoutY="75.0" text="Kilometros">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font></Label>
+      <TextField fx:id="km" layoutX="206.0" layoutY="71.0" prefHeight="27.0" prefWidth="170.0" promptText="Ingresar kilometros recorridos" />
+      <TextField fx:id="precio" layoutX="206.0" layoutY="175.0" prefHeight="33.0" prefWidth="170.0" promptText="Precio" />
+      <Label layoutX="105.0" layoutY="178.0" text="Precio">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font></Label>
+      <TextField fx:id="consumo" layoutX="217.0" layoutY="241.0" prefHeight="33.0" prefWidth="160.0" promptText="consumo" />
+      <Button layoutX="98.0" layoutY="128.0" mnemonicParsing="false" onAction="#calcular" text="Calcular">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="415.0" layoutY="382.0" mnemonicParsing="false" onAction="#guardar" prefHeight="25.0" prefWidth="95.0" text="Guardar" />
+      <Label layoutX="105.0" layoutY="247.0" prefHeight="33.0" prefWidth="77.0" text="Consumo:" />
+      <Label layoutX="297.0" layoutY="27.0" text="AUTO" textFill="#bc1010">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

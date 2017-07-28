@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="menu" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofinal.AutobusController">
+   <children>
+      <ImageView fitHeight="422.0" fitWidth="614.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images%20(1).jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="277.0" layoutY="51.0" text="Kilometros:">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="295.0" layoutY="126.0" text="Precio:">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="km" layoutX="408.0" layoutY="51.0" prefHeight="27.0" prefWidth="173.0" promptText="Ingrese los kilometros" />
+      <TextField fx:id="precio" layoutX="408.0" layoutY="126.0" prefHeight="27.0" prefWidth="173.0" promptText="precio" />
+      <TextField fx:id="consumo" layoutX="408.0" layoutY="194.0" prefHeight="21.0" prefWidth="173.0" promptText="Consumo" />
+      <Button layoutX="286.0" layoutY="93.0" mnemonicParsing="false" onAction="#calcularAutobus" text="Calcular" />
+      <Label layoutX="292.0" layoutY="196.0" text="Consumo">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="467.0" layoutY="357.0" mnemonicParsing="false" onAction="#guardar" prefHeight="27.0" prefWidth="87.0" text="Guardar" />
+      <Label layoutX="272.0" layoutY="24.0" text="AUTOBUS" textFill="#121bb5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="52.0" layoutY="357.0" mnemonicParsing="false" onAction="#menu" prefHeight="27.0" prefWidth="75.0" text="Menu" />
+   </children>
+</AnchorPane>

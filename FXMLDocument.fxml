@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="419.0" prefWidth="659.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofinal.FXMLDocumentController">
+    <children>
+      <ImageView fitHeight="191.0" fitWidth="195.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@o4gm4v6.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="189.0" fitWidth="160.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@o4gm4v6.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="176.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@o4gm4v6.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="501.0" fitWidth="659.0" layoutX="158.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@o4gm4v6.jpg" />
+         </image>
+      </ImageView>
+        <Button fx:id="button" layoutX="208.0" layoutY="35.0" onAction="#video" prefHeight="62.0" prefWidth="244.0" text="Video">
+         <graphic>
+            <ImageView fitHeight="54.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@f8f82ef2891865720577dab196297417--disney-mouse-walt-disney.jpg" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="21.0" layoutY="125.0" mnemonicParsing="false" onAction="#motocilcista" text="Motocilcista">
+         <graphic>
+            <ImageView fitHeight="90.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Empena-tu-moto-honda.jpg" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="21.0" layoutY="332.0" mnemonicParsing="false" onAction="#tren" prefHeight="81.0" prefWidth="181.0" text="Tren">
+         <graphic>
+            <ImageView fitHeight="75.0" fitWidth="121.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@049072395000.jpg" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="21.0" layoutY="218.0" mnemonicParsing="false" onAction="#barco" prefHeight="68.0" prefWidth="181.0" text="Barco">
+         <graphic>
+            <ImageView fitHeight="83.0" fitWidth="133.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images.jpg" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="438.0" layoutY="232.0" mnemonicParsing="false" onAction="#auto" prefHeight="81.0" prefWidth="181.0" text="Auto">
+         <graphic>
+            <ImageView fitHeight="72.0" fitWidth="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@auto.jpg" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="438.0" layoutY="120.0" mnemonicParsing="false" onAction="#autobus" prefHeight="81.0" prefWidth="181.0" text="Autobus">
+         <graphic>
+            <ImageView fitHeight="61.0" fitWidth="129.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@autobús-de-dos-pisos.-autobús-rojo-de-londres_513e2afb4d8d0-thumb.jpg" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="453.0" layoutY="350.0" mnemonicParsing="false" onAction="#historial" prefHeight="47.0" prefWidth="129.0" text="Historial" />
+    </children>
+</AnchorPane>

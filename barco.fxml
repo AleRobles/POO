@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="me" prefHeight="376.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofinal.BarcoController">
+   <children>
+      <ImageView fitHeight="416.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sea-beach-boat-rocks-clouds-sand-ocean-cliff-sky-clouds-shore-coast-wallpaper-179955.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="256.0" layoutY="65.0" text="Kilomotros:" textFill="#140e0e">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="271.0" layoutY="161.0" text="Precio:">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="km" layoutX="360.0" layoutY="65.0" prefHeight="27.0" prefWidth="166.0" promptText="Ingrese kilometros" />
+      <TextField fx:id="precio" layoutX="360.0" layoutY="168.0" prefHeight="27.0" prefWidth="166.0" />
+      <TextField fx:id="consumo" layoutX="360.0" layoutY="213.0" prefHeight="27.0" prefWidth="172.0" promptText="Consumo por recorrido" />
+      <Button fx:id="menu" layoutX="26.0" layoutY="321.0" mnemonicParsing="false" onAction="#menu" prefHeight="25.0" prefWidth="74.0" text="Menu" />
+      <Button layoutX="256.0" layoutY="109.0" mnemonicParsing="false" onAction="#calcular" text="Calcular" />
+      <Label layoutX="266.0" layoutY="29.0" text="BARCO" textFill="#f82727">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="286.0" layoutY="205.0" text="Consumo">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="465.0" layoutY="319.0" mnemonicParsing="false" onAction="#guardar" prefHeight="27.0" prefWidth="74.0" text="Guardar" />
+   </children>
+</AnchorPane>
